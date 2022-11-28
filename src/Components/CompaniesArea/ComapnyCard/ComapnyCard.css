@@ -1,0 +1,159 @@
+.ComapnyCard {
+
+
+  display: inline-block;
+
+  align-items: center;
+
+  justify-content: center;
+
+  margin-top: 8%;
+
+
+}
+
+.containerComapny .cardComapny .iconComapny {
+
+  position: absolute;
+
+  top: 0;
+
+  right: -20%;
+
+  width: 120%;
+
+  height: 100%;
+
+  background-image: url("..//..//..//Assets/Image/company-icon2.png");
+
+  background-repeat: no-repeat;
+
+  background-size: contain;
+
+  background-color: #414141;
+
+  border-radius: 10px;
+
+
+}
+
+.containerComapny .cardComapny .iconComapny .user-circleCompany {
+
+  position: absolute;
+
+  top: 50%;
+
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  font-size: 80px;
+
+  color: #fff;
+
+}
+
+.containerComapny .cardComapny .slideComapny {
+
+  width: 300px;
+
+  height: 200px;
+
+  transition: 0.5s;
+
+}
+
+.containerComapny .cardComapny .slideComapny.slide1 {
+
+  position: relative;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  z-index: 1;
+
+  transition: .7s;
+
+  transform: translateY(100px);
+
+
+}
+
+.containerComapny .cardComapny:hover .slideComapny.slide1 {
+
+  transform: translateY(0px);
+
+
+}
+
+.containerComapny .cardComapny .slideComapny.slide2 {
+
+  border-radius: 5px;
+
+  position: relative;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  padding: 30px;
+
+  box-sizing: border-box;
+
+  transition: .8s;
+
+  transform: translateY(-100px);
+
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+
+  background-color: #090909;
+
+  width: 120%;
+
+  height: 100%;
+
+}
+
+.containerComapny .cardComapny:hover .slideComapny.slide2 {
+
+  transform: translateY(0);
+
+}
+
+.containerComapny .cardComapny .slideComapny.slide2::after {
+
+  content: "";
+
+  position: absolute;
+
+  width: 30px;
+
+  height: 4px;
+
+  bottom: 5px;
+
+  left: 50%;
+
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  background: #71a3ef;
+
+}
+
+.containerComapny .cardComapny .slideComapny.slide2 .contentComapny span {
+
+  font-size: 20px;
+
+  color: #ddddea;
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}

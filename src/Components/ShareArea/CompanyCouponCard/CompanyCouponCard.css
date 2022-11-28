@@ -1,0 +1,243 @@
+.CompanyCouponCard {
+
+  background-color: none;
+  display: inline-block;
+  width: 250px;
+  text-align: center;
+  margin: 50px;
+  height: 400px;
+
+}
+
+.CompanyCouponLogo {
+  border-radius: 10px;
+  vertical-align: middle;
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  position: relative;
+  left: 8.7rem;
+  top: 21rem;
+}
+
+.containerCompany {
+  position: relative;
+  right: 15%;
+}
+
+.containerCompany .cardCompany {
+  position: relative;
+  width: 320px;
+  height: 450px;
+  background: #080606;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.containerCompany .cardCompany:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 110%;
+  height: 110%;
+  background: #030c60;
+  clip-path: circle(100px at 80% 20%);
+  transition: 0.5s ease-in-out;
+}
+
+.containerCompany .cardCompany:hover:before {
+  clip-path: circle(300px at 80% -20%);
+}
+
+.containerCompany .cardCompany:after {
+  content: 'Coupon';
+  position: absolute;
+  top: 78%;
+  left: 0%;
+  font-size: 5em;
+  font-weight: 800;
+  font-style: italic;
+  color: rgba(69, 69, 70, 0.211)
+}
+
+.containerCompany .cardCompany .imgBxCompany {
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  z-index: 10000;
+  width: 100%;
+  height: 220px;
+  transition: 0.5s;
+
+}
+
+.containerCompany .cardCompany:hover .imgBxCompany {
+  top: 0%;
+  transform: translateY(0%);
+  width: 120px;
+  height: 120px;
+}
+
+.containerCompany .cardCompany .imgBxCompany img {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-25deg);
+  width: 130px;
+  height: 130px;
+  border-radius: 20px;
+}
+
+.containerCompany .cardCompany .contentBxCompany {
+  position: absolute;
+  bottom: 10%;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  transition: 1s;
+  z-index: 10;
+
+}
+
+
+.containerCompany .cardCompany:hover .contentBxCompany {
+  height: 210px;
+  position: absolute;
+  bottom: 15%;
+}
+
+.containerCompany .cardCompany .contentBxCompany h2 {
+  position: relative;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: rgb(88, 145, 241);
+  text-shadow: 5px 2px 3px rgb(8, 6, 12);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  margin-top: -1.5%;
+
+}
+
+.containerCompany .cardCompany .contentBxCompany .datesCompany,
+.containerCompany .cardCompany .contentBxCompany .otherCompany {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px;
+  transition: 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.containerCompany .cardCompany:hover .contentBxCompany .datesCompany {
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0.5s;
+  padding: 20px 3px 3px 3px;
+}
+
+.containerCompany .cardCompany:hover .contentBxCompany .otherCompany {
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0.6s;
+  padding: 10px 3px 3px 3px;
+}
+
+.containerCompany .cardCompany .contentBxCompany .datesCompany h3,
+.containerCompany .cardCompany .contentBxCompany .otherCompany h3 {
+  color: #fff;
+  font-weight: 300;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: -13%;
+
+}
+
+.amountCompany {
+
+  font-size: 0.9rem;
+}
+
+.priceCompany {
+  color: #283adc;
+  font-size: 1.2rem;
+  margin-top: -3%;
+}
+
+.categoryCompany {
+  font-size: 1rem;
+  color: rgb(75, 124, 246);
+  margin-top: -5%;
+  padding-top: 4%;
+}
+
+
+.containerCompany .cardCompany .contentBxCompany .datesCompany span {
+  width: 900px;
+  height: 30px;
+  text-align: center;
+  line-height: 26px;
+  font-size: 14px;
+  display: inline-block;
+  background: rgb(59, 73, 234);
+  margin: 0 10px 20px;
+  transition: 0.5s;
+  color: rgb(252, 252, 252);
+  border-radius: 4px;
+}
+
+
+.updateCoupon {
+
+  position: absolute;
+  padding: 5px 15px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  font-size: 30px;
+  color: rgb(246, 133, 20);
+  background-color: transparent;
+  cursor: pointer;
+  margin-right: 80%;
+  margin-top: -114%;
+
+}
+
+.updateCoupon:hover {
+
+  transition: all 0.3s ease-out;
+  background-color: transparent;
+  color: rgb(246, 133, 20);
+  border-radius: 4px;
+
+}
+
+.deleteCoupon {
+
+  position: absolute;
+  padding: 5px 15px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  font-size: 30px;
+  color: rgb(233, 19, 19);
+  background-color: transparent;
+  cursor: pointer;
+  margin-right: 80%;
+  margin-top: -75%;
+
+}
+
+.deleteCoupon:hover {
+
+  background-color: transparent;
+  color: rgb(233, 19, 19);
+  border-radius: 4px;
+  transition: all 0.3s ease-out;
+
+}

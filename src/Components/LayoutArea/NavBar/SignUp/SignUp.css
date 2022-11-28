@@ -1,0 +1,22 @@
+  .signUp {
+    padding: 4px 25px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    color: rgb(20, 17, 14);
+    background-color: rgba(51, 91, 201, 0.938);
+    cursor: pointer;
+    margin-right: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .signUp:hover {
+    padding: 3px 21px;
+    transition: all 0.3s ease-out;
+    background-color: transparent;
+    /* color: rgb(170, 131, 54); */
+    color: rgb(41, 85, 203);
+    border-radius: 4px;
+    transition: all 0.3s ease-out;
+  }

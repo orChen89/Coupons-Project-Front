@@ -1,0 +1,71 @@
+.divMaster {
+    background-image: url("..//..//..//Assets/Image/new5.jpg");
+     width: 130vh;
+    height: 60vh;
+    background-size: cover;
+    margin-top: 5%;
+    border-radius: 50px;
+    margin-left: 17.5%;
+    position: absolute; 
+    
+}
+
+.welcome {
+    position: relative;
+    padding-top: 97px;
+    color: black;
+    text-shadow: -1px 1px 10px rgba(39, 43, 74, 0.75);
+}
+
+.p1 {
+    color: black;
+    position: relative;
+    right: 15%;
+    margin-top: 4%;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.p2 {
+    color: black;
+    position: relative;
+    right: 15%;
+    margin-top: 1%;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer {
+    color: black;    
+    margin-top: 33%;
+    margin-left: 48%;
+    font-size: 12px;        
+    position:absolute; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0, 0);
+    
+}
+
+.homeCoupon {
+
+    position: relative;
+    width: 220px;
+    height: 220px;
+    margin-left: 60%;
+    top: -0.5%;
+    transition: transform .7s ease-in-out;
+
+}
+
+.homeCoupon:hover {
+
+    position: relative;
+    width: 200px;
+    height: 200px;
+    top: -2%;
+    transition: .7s;
+    transform: rotate(360deg);
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px 5px rgb(59, 85, 211);
+
+}

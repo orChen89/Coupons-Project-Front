@@ -1,0 +1,250 @@
+.CustomerCardByAdmin {
+
+    margin-right: 5%;
+
+    margin-top: 2%;
+
+    padding: 0;
+
+    display: inline-block;
+
+    align-items: center;
+
+    justify-content: center;    
+
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    height: 360px;
+
+    border-radius: 20px;
+
+
+}
+
+.containerCustomerByAdmin .cardCustomerByAdmin .iconCustomerByAdmin {
+
+    position: absolute;
+
+    top: 0;
+
+    right: -20%;
+
+    width: 120%;
+
+    height: 100%;
+
+    background-image: url("..//..//..//Assets/Image/user-icon.jpg");
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    background-color: #414141;
+
+    border-radius: 10px;
+
+
+}
+
+.containerCustomerByAdmin .cardCustomerByAdmin .iconCustomerByAdmin .user-circleByAdmin {
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    font-size: 80px;
+
+    color: #fff;
+
+}
+
+.containerCustomerByAdmin .cardCustomerByAdmin .slideCustomerByAdmin {
+
+    width: 300px;
+
+    height: 200px;
+
+    transition: 0.5s;
+
+}
+
+.containerCustomerByAdmin .cardCustomerByAdmin .slideCustomerByAdmin.slide1 {
+
+    position: relative;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    z-index: 1;
+
+    transition: .7s;
+
+    transform: translateY(100px);
+
+
+}
+
+.containerCustomerByAdmin .cardCustomerByAdmin:hover .slideCustomerByAdmin.slide1 {
+
+    transform: translateY(0px);
+
+
+}
+
+.containerCustomerByAdmin .cardCustomerByAdmin .slideCustomerByAdmin.slide2 {
+
+    border-radius: 5px;
+
+    position: relative;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 30px;
+
+    box-sizing: border-box;
+
+    transition: .8s;
+
+    transform: translateY(-100px);
+
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+
+    background-color: #040b68;
+
+    width: 120%;
+
+    height: 100%;
+
+}
+
+.containerCustomerByAdmin .cardCustomerByAdmin:hover .slideCustomerByAdmin.slide2 {
+
+    transform: translateY(0);
+
+}
+
+.containerCustomerByAdmin .cardCustomerByAdmin .slideCustomerByAdmin.slide2::after {
+
+    content: "";
+
+    position: absolute;
+
+    width: 30px;
+
+    height: 4px;
+
+    bottom: 5px;
+
+    left: 50%;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    background: #71a3ef;
+
+}
+
+.containerCustomerByAdmin .cardCustomerByAdmin .slideCustomerByAdmin.slide2 .contentCustomerByAdmin span {
+
+    font-size: 20px;
+
+    justify-content: left;
+
+    text-align: left;
+
+    color: #c2c2e0;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.updateCustomer {
+
+    position: absolute;
+    padding: 5px 15px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 30px;
+    color: rgb(246, 133, 20);
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: -53%;
+    margin-top: -35%;
+
+}
+
+.updateCustomer:hover {
+
+    transition: all 0.3s ease-out;
+    background-color: transparent;
+    color: rgb(246, 133, 20);
+    border-radius: 4px;
+
+}
+
+.deleteCustomer {
+
+    position: absolute;
+    padding: 5px 15px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 30px;
+    color: rgb(233, 19, 19);
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: -53%;
+    margin-top: -9%;
+
+}
+
+.deleteCustomer:hover {
+
+    background-color: transparent;
+    color: rgb(233, 19, 19);
+    border-radius: 4px;
+    transition: all 0.3s ease-out;
+
+}
+
+.showCustomerCoupons {
+
+    position: absolute;
+    border: 2px solid #0b0b0c;
+    padding: 4px 11px;
+    background-color: rgb(31, 36, 200);
+    color: #c4ccdc;
+    text-transform: capitalize;
+    text-decoration: none;
+    margin-left: 25%;
+    margin-top: -2.5%;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.showCustomerCoupons:hover {
+
+    border: 5px solid #05070e;
+    padding: 4px 11px;
+    background-color: rgb(98, 117, 240);
+    color: #ebedf5;
+    text-transform: capitalize;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .7s;
+}

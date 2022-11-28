@@ -1,0 +1,93 @@
+ .CartCard {
+     background-color: transparent;
+     display: inline-flex;
+     width: 220px;
+     text-align: center;
+     margin: 5%;
+     border: 3px solid rgb(5, 4, 8);
+     border-radius: 5%;
+     margin-top: 1%;
+     right: 3.5%;
+     position: relative;
+     align-items: center;
+
+ }
+
+ .cartImg {
+
+     width: 170%;
+     margin-top: -2%;
+     position: relative;
+     height: 101.5%;
+     margin-left: 40%;
+     border-radius: 10px;
+
+ }
+
+ .item img {
+
+     display: block;
+     width: 100px;
+     padding: 10px;
+     height: 100px;
+     margin-right: 100%;
+     border-radius: 20px;
+ }
+
+ .item>h2 {
+
+     padding: 4%;
+     color: #212334;
+
+ }
+
+ .item>p {
+     padding: 4%;
+     color: #0a1572;
+
+ }
+
+ .purchase {
+     border: 5px solid #2448ca;
+     padding: 4px 11px;
+     background-color: #fff;
+     color: #0d23b4;
+     text-transform: capitalize;
+     margin: 12px 12px;
+     font-weight: bold;
+     cursor: pointer;
+ }
+
+ .remove {
+     border: 5px solid #2448ca;
+     padding: 4px 14px;
+     background-color: #fff;
+     color: #0d23b4;
+     text-transform: capitalize;
+     margin: 10px 0;
+     font-weight: bold;
+     cursor: pointer;
+ }
+
+ .purchase:hover {
+     border: 5px solid #05070e;
+     padding: 4px 11px;
+     background-color: rgb(41, 100, 189);
+     color: #ebedf5;
+     text-transform: capitalize;
+     font-weight: bold;
+     cursor: pointer;
+     transition: .7s;
+
+ }
+
+ .remove:hover {
+     border: 5px solid #05070e;
+     padding: 4px 14px;
+     background-color: rgb(41, 100, 189);
+     color: #ebedf5;
+     text-transform: capitalize;
+     font-weight: bold;
+     cursor: pointer;
+     transition: .5s;
+ }

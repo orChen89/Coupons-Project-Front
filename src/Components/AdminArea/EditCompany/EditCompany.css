@@ -1,0 +1,94 @@
+.totalEditCompany>form {
+
+  width: 400px;
+  text-align: left;
+  border: 5px solid rgba(24, 64, 185, 0.616);
+  padding: 20px;
+  border-radius: 30px;
+  margin-left: 40%;
+  margin-top: 8%;
+  background-color: rgb(6, 6, 6);
+
+}
+
+.totalEditCompany h2 {
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+
+.totalEditCompany {
+
+  color: rgba(25, 83, 219, 0.829);
+
+}
+
+.updateButtonCompany {
+
+  padding: 8px 27px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  color: rgb(20, 17, 14);
+  background-color: rgba(51, 91, 201, 0.938);
+  cursor: pointer;
+  margin-top: 10px;
+  margin-right: -10%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.updateButtonCompany:hover {
+
+  padding: 8px 27px;
+  transition: all 0.3s ease-out;
+  background-color: transparent;
+  color: rgb(41, 85, 203);
+  border-radius: 4px;
+  transition: all 0.3s ease-out;
+
+}
+
+.totalEditCompany span {
+  position: absolute;
+  color: rgb(195, 8, 61);
+  margin: 0 30px;
+  font-family: cursive
+}
+
+select,
+input {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  border-radius: 30px;
+
+}
+
+.backButtonCompany {
+
+  position: relative;
+  padding: 8px 27px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  color: rgb(20, 17, 14);
+  background-color: rgba(51, 91, 201, 0.938);
+  cursor: pointer;
+  margin-left: 170px;
+  margin-top: 20px;
+  margin-right: 0px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.backButtonCompany:hover {
+
+  padding: 8px 27px;
+  transition: all 0.3s ease-out;
+  background-color: transparent;
+  color: rgb(41, 85, 203);
+  border-radius: 4px;
+  transition: all 0.3s ease-out;
+
+}

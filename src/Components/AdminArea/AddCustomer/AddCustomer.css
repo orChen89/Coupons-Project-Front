@@ -1,0 +1,87 @@
+.AddCustomer>form {
+  width: 400px;
+  text-align: left;
+  border: 5px solid rgba(24, 64, 185, 0.616);
+  padding: 20px;
+  border-radius: 30px;
+  margin-left: 40%;
+  margin-top: 8%;
+  background-color: rgb(6, 6, 6);
+}
+
+.AddCustomer h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.AddCustomer {
+  color: rgba(25, 83, 219, 0.829);
+
+}
+
+.addCustomerButton {
+  position: relative;
+  padding: 8px 27px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  font-size: 25px;
+  color: rgb(20, 17, 14);
+  background-color: rgba(51, 91, 201, 0.938);
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 0px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.addCustomerButton:hover {
+
+  font-size: 25px;
+  transition: all 0.3s ease-out;
+  background-color: transparent;
+  color: rgb(41, 85, 203);
+  border-radius: 4px;
+  transition: all 0.3s ease-out;
+
+}
+
+.AddCustomer span {
+  position: absolute;
+  color: rgb(195, 8, 61);
+  margin: 0 30px;
+  font-family: cursive
+}
+
+select,
+input {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  border-radius: 30px;
+
+}
+
+.customerBack {
+  position: relative;
+  padding: 11px 27px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  color: rgb(20, 17, 14);
+  background-color: rgba(51, 91, 201, 0.938);
+  cursor: pointer;
+  margin-left: 50%;
+  margin-top: 21px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.customerBack:hover {
+
+  padding: 11px 27px;
+  transition: all 0.3s ease-out;
+  background-color: transparent;
+  color: rgb(41, 85, 203);
+  border-radius: 4px;
+
+}

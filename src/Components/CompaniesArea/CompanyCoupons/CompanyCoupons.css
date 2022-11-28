@@ -1,0 +1,80 @@
+.add {
+	border-radius: 15px;
+	font-size: 18px;
+	color: rgb(13, 10, 7);
+	background-color: rgba(51, 91, 201, 0.938);
+	cursor: pointer;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	position: absolute;
+	margin-left: 10%;
+	margin-top: -0.1%;
+	padding: 5px 5px;
+	text-decoration: none;
+	border: 2px solid black;
+
+}
+
+.add:hover {
+	padding: 5px 5px;
+	transition: all 0.3s ease-out;
+	background-color: transparent;
+	color: rgb(41, 85, 203);
+	border-radius: 4px;
+	border: 2px solid rgb(41, 85, 203);
+	border-radius: 15px;
+	background: black;
+}
+
+.filterCompany {
+	background-color: rgb(7, 9, 14);
+	padding: 10px 10px 0px 10px;
+	border-radius: 25px;
+	width: 80%;
+	margin-left: 9.5%;
+
+}
+
+.filterPriceCompany {
+
+	position: relative;
+	margin-right: 10%;
+	color: rgb(104, 138, 239);
+	font-size: 1.2rem;
+
+}
+
+.filterPriceCompany>input {
+
+	width: 10%;
+	border-radius: 20px;
+	font-size: 15px;
+}
+
+
+.filterCategoryCompany {
+
+	position: relative;
+	color: rgb(104, 138, 239);
+	font-size: larger;
+	padding-right: 40px;
+
+}
+
+.filterCategoryCompany>label {
+	position: relative;
+	color: rgb(33, 21, 197);
+	font-size: 1.2rem;
+
+}
+
+.categoriesCompany {
+	width: 10%;
+	color: rgb(2, 3, 8);
+	font-size: 1rem;
+}
+
+.categoriesCompany>option {
+
+	font-size: 14px;
+	color: rgb(31, 101, 230);
+}

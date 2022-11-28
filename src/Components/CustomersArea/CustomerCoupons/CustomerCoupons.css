@@ -1,0 +1,58 @@
+.filter {
+	background-color: rgb(7, 9, 14);
+	padding: 10px 10px 0px 15px;
+	border-radius: 25px;
+	width: 80%;
+	margin-left: 10%;
+
+
+}
+
+.filterPrice {
+
+	position: relative;
+	margin-right: 10%;
+	color: rgb(104, 138, 239);
+	font-size: 1.2rem;
+
+}
+
+.filterPrice>input {
+
+	width: 10%;
+	border-radius: 20px;
+	font-size: 15px;
+}
+
+
+.filterCategory {
+
+	position: relative;
+	color: rgb(104, 138, 239);
+	font-size: larger;
+	padding-right: 25px;
+
+}
+
+.filterCategory>label {
+	position: relative;
+	color: rgb(33, 21, 197);
+	font-size: 1.2rem;
+
+}
+
+.categories {
+	width: 10%;
+	color: rgb(2, 3, 8);
+	font-size: 1rem;
+}
+
+.categories>option {
+
+	font-size: 14px;
+	color: rgb(31, 101, 230);
+}
+
+.customerCoupons {
+	color: black;
+}

@@ -1,0 +1,22 @@
+.log {
+  padding: 2px 19px;
+  border-radius: 4px;
+  margin-right: -1%;
+  outline: none;
+  border: none;
+  font-size: 17px;
+  color: rgb(20, 17, 14);
+  background-color: rgba(51, 91, 201, 0.938);
+  cursor: pointer;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.log:hover {
+  padding: 3px 21px;
+  transition: all 0.3s ease-out;
+  background-color: transparent;
+  color: rgb(41, 85, 203);
+  border-radius: 4px;
+  transition: all 0.3s ease-out;
+}
